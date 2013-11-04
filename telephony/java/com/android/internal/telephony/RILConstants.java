@@ -469,10 +469,10 @@ cat include/telephony/ril.h | \
     int RIL_UNSOL_ON_SS = 1043;
     int RIL_UNSOL_STK_CC_ALPHA_NOTIFY = 1044;
     int RIL_UNSOL_LCEDATA_RECV = 1045;
-<<<<<<< HEAD
     int RIL_UNSOL_PCO_DATA = 1046;
-=======
     int RIL_UNSOL_RESPONSE_ADN_INIT_DONE = 1046;
     int RIL_UNSOL_RESPONSE_ADN_RECORDS = 1047;
->>>>>>> 7d2b34a... Optimize SIM phonebook feature with new batch APIs
+
+    int RIL_UNSOL_STK_SEND_SMS_RESULT = 11002; /* Samsung STK */
+
 }
