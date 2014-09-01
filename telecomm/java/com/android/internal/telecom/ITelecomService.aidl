@@ -249,4 +249,15 @@ interface ITelecomService {
     * @see TelecomServiceImpl#createManageBlockedNumbersIntent
     **/
     Intent createManageBlockedNumbersIntent();
+
+    /**
+     * @see TelecommManager#getActiveSubscription
+     */
+    int getActiveSubscription();
+
+    /**
+     * @see TelecommManager#switchToOtherActiveSub
+     */
+    void switchToOtherActiveSub(int subId);
+
 }

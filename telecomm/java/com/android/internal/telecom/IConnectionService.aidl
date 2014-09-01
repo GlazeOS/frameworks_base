@@ -83,4 +83,7 @@ oneway interface IConnectionService {
     void onExtrasChanged(String callId, in Bundle extras);
 
     void addParticipantWithConference(String callId, String recipients);
+
+    void setLocalCallHold(String callId, boolean lchState);
+
 }
