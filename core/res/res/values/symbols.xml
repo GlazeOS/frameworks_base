@@ -2758,4 +2758,5 @@
   <java-symbol type="bool" name="config_showOperatorNameInStatusBar" />
   <java-symbol type="bool" name="config_passpoint_setting_on" />
 
+  <java-symbol type="bool" name="config_volte_preferred" />
 </resources>
