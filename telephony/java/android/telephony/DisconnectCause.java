@@ -275,19 +275,19 @@ public class DisconnectCause {
     public static final int MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 96;
     public static final int RECOVERY_ON_TIMER_EXPIRED = 97;
     public static final int PROTOCOL_ERROR_UNSPECIFIED = 98;
-    public static final int INTERWORKING_UNSPECIFIED = 98;
-    public static final int LOCAL_LOW_BATTERY = 99;
-    public static final int LOW_BATTERY = 100;
+    public static final int INTERWORKING_UNSPECIFIED = 99;
+    public static final int LOCAL_LOW_BATTERY = 100;
+    public static final int LOW_BATTERY = 101;
 
     /** EMERGENCY call failed with temporary fail cause */
-    public static final int EMERGENCY_TEMP_FAILURE         = 101;
+    public static final int EMERGENCY_TEMP_FAILURE         = 102;
     /** EMERGENCY call failed with permanent fail cause */
-    public static final int EMERGENCY_PERM_FAILURE         = 102;
+    public static final int EMERGENCY_PERM_FAILURE         = 103;
 
     /** call failed due to LTE to 3G/2G handover not feasible */
-    public static final int HO_NOT_FEASIBLE = 103;
+    public static final int HO_NOT_FEASIBLE = 104;
 
-    public static final int NON_SELECTED_USER_CLEARING = 104;
+    public static final int NON_SELECTED_USER_CLEARING = 105;
 
     //*********************************************************************************************
     // When adding a disconnect type:
@@ -524,7 +524,6 @@ public class DisconnectCause {
             return "HO_NOT_FEASIBLE";
         case NON_SELECTED_USER_CLEARING:
             return "NON_SELECTED_USER_CLEARING";
->>>>>>> 94296a5... telephony: Make the disconnect cause distinguishable
         default:
             return "INVALID: " + cause;
         }
