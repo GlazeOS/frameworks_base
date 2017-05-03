@@ -433,7 +433,6 @@ public class DisconnectCause {
             return "DATA_LIMIT_REACHED";
         case DIALED_ON_WRONG_SLOT:
             return "DIALED_ON_WRONG_SLOT";
-<<<<<<< HEAD
         case NO_CIRCUIT_AVAIL:
             return "NO_CIRCUIT_AVAIL";
         case NO_ROUTE_TO_DESTINAON:
