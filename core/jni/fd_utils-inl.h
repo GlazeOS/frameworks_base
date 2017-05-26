@@ -55,6 +55,9 @@ static const char* kPathWhitelist[] = {
   "/system/framework/framework-res.apk",
   "/dev/urandom",
   "/dev/ion",
+  #ifdef MTK_PROC_GED
+  "/proc/ged"
+  #endif
   "/dev/dri/renderD129", // Fixes b/31172436
 };
 
